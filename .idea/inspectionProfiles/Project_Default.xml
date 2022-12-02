@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="59" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="3.6" />
+            <item index="1" class="java.lang.String" itemvalue="3.7" />
+            <item index="2" class="java.lang.String" itemvalue="3.8" />
+            <item index="3" class="java.lang.String" itemvalue="3.9" />
+            <item index="4" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="tensorflow-addons" />
+            <item index="1" class="java.lang.String" itemvalue="pydot_ng" />
+            <item index="2" class="java.lang.String" itemvalue="gym" />
+            <item index="3" class="java.lang.String" itemvalue="mkl-fft" />
+            <item index="4" class="java.lang.String" itemvalue="mkl-random" />
+            <item index="5" class="java.lang.String" itemvalue="mkl-service" />
+            <item index="6" class="java.lang.String" itemvalue="pandas" />
+            <item index="7" class="java.lang.String" itemvalue="catboost" />
+            <item index="8" class="java.lang.String" itemvalue="shap" />
+            <item index="9" class="java.lang.String" itemvalue="seaborn" />
+            <item index="10" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="11" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="12" class="java.lang.String" itemvalue="numpy" />
+            <item index="13" class="java.lang.String" itemvalue="optuna" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N812" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
